@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<style>
+body{
+	background-color:lightgreen;
+	
+}
+h3{
+	color:red;
+}
+form{
+	position:relative;
+	left:40%;
+}
+
+</style>
+
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="vewport" content="device-width initial-scale=1.0">
+		<title>Form</title>
+	</head>
+	<body>
+		<form action="submit.html" class="form-center">
+			<h3> Personal Details </h3>
+			<label>Name:</label>
+			<input type="text" placeholder="eg John Doe"><br><br>
+			<label>Password:</label>
+			<input type="password" placeholder="eg Hj@35S#MN2"><br><br>
+			<label>E-mail id:</label>
+			<input type="email" placeholder="eg johndoe69@gmail.com"><br><br>
+			<label>Gender:</label>
+			<input type="radio" name="myGender">Male<input type="radio" name="myGender">Female<br><br>
+			<label>Contact:</label>
+			<input type="number"><br>
+		<h3>Educational Qualification</h3>
+			<label>Degree:</label>
+				<select>
+					<option>--Select---</option>
+					<option>Matriculate</option>
+					<option>UG</option>
+					<option>PG</option>
+					<option>PHD</option>
+				</select><br><br>
+			<label>Engineering: </label>
+				<select>
+					<option>--Select---</option>
+					<option>IIT Kharagpur</option>
+					<option>Chapri University</option>
+					<option>Jadavpur University</option>
+					<option>Hogwarts Univeristy</option>
+				</select><br><br>
+			<label>Hobbies:</label>
+			<input type="radio" name="myHobbies">Reading<input type="radio" name="myHobbies">Gaming<br>
+			<h3>Address</h3>
+				<textarea row="100" cols="50"></textarea><br><br>
+			<label>Attach Resume:</label>
+				<input type="file">
+		</form>
+	</body>
+</html>

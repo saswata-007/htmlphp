@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Example</title>
+</head>
+<style>
+    *{
+        font-family: helvetica;
+        padding-left: 10%;
+        
+    }
+    #form{
+        padding-left: 10%;
+        border: 5px solid black;
+        border-radius: 10px;
+        padding: 10px 10px 10px 10px;
+    }
+
+</style>
+<body>
+    <h2>Sample Form</h2>
+    <form id="form" action="process_form.php" method="post" enctype="multipart/form-data">
+        <!-- Text Input -->
+        <label for="text_input">Text Input:</label>
+        <input type="text" id="text_input" name="text_input"><br><br>
+
+        <!-- Password Input -->
+        <label for="password_input">Password:</label>
+        <input type="password" id="password_input" name="password_input"><br><br>
+
+        <!-- Checkbox -->
+        <input type="checkbox" id="checkbox_input" name="checkbox_input">
+        <label for="checkbox_input">Check me</label><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Choose an option:</label><br>
+        <input type="radio" id="option1" name="radio_option" value="option1">
+        <label for="option1">Option 1</label><br>
+        <input type="radio" id="option2" name="radio_option" value="option2">
+        <label for="option2">Option 2</label><br><br>
+
+        <!-- Select Box -->
+        <label for="select_box">Select a fruit:</label>
+        <select id="select_box" name="select_box">
+            <option value="apple">Apple</option>
+            <option value="banana">Banana</option>
+            <option value="orange">Orange</option>
+        </select><br><br>
+
+        <!-- File Select Box -->
+        <label for="file_input">Upload a file:</label>
+        <input type="file" id="file_input" name="file_input"><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
