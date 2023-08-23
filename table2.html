@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(150, 238, 238);
+        }
+        .inside{
+            text-align: center;
+            background-color: beige;
+            border-radius: 3px;
+            padding: 10px;
+            margin: 50px auto;
+        }
+        #heading {
+            text-align: center;
+            color: blue;
+            font-size: 25px;
+            padding-top: 25px;
+        }
+
+        #int {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading"> <h1>Bio data</h1></div>
+    <div >
+        <table  border="1" align="center" class="inside">
+            <thead>
+                <tr colspan="3">
+                    <th>
+                        Bio Data
+                    </th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <table  border="1" align="center" class="inside">
+                        <thead>
+                            <th>Name</th>
+                            <th>Saswata Kayal</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Email</td>
+                                <td>saswata@.com</td>
+                            </tr>
+                            <tr>
+                                <td>Number</td>
+                                <td>12236458</td>
+                            </tr>
+                            <tr>
+                                <td rowspan="3">language Known</td>
+                                <td colspan="2">English</td>
+                                <tr>
+                                    <td> Bengali</td>
+                                </tr>
+                                <tr><td>hindi</td></tr>
+
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+
+        </table>
+
+    </div>
+</body>
+</html>
